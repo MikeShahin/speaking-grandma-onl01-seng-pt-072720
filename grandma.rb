@@ -3,7 +3,9 @@
 def speak_to_grandma(string)
   if string != string.upcase
     puts "HUH?! SPEAK UP, SONNY!"
-  
+  elsif string == string.upcase
+    puts "NO, NOT SINCE 1938!"
+  elsif string == ""
   end
 end
 
