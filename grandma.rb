@@ -3,6 +3,7 @@
 def speak_to_grandma(string)
   if string == "hello"
     puts "HUH?! SPEAK UP, SONNY!"
+  end
 end
 
 speak_to_grandma("hello")
